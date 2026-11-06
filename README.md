@@ -3,7 +3,7 @@
 Grafinės naudotojo sąsajos maketas pagal naudotojo sąsajos navigavimo planą.
 
 | Aplankas / failas | 
-|---|---|
+|---|
 | `index.html`, `css/`, `js/` | 
 | `prisijungimas.html`, `registracija.html`, `statymai/` (išskyrus `statymu-sarasas.html`), `lesos/` |
 | `statymai/statymu-sarasas.html`, `koeficientai/` | 
