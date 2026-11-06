@@ -2,8 +2,7 @@
 
 Grafinės naudotojo sąsajos maketas pagal naudotojo sąsajos navigavimo planą.
 
-## Kas už ką atsakingas
-| Aplankas / failas | Atsakingas |
+| Aplankas / failas | 
 |---|---|
 | `index.html`, `css/`, `js/` | 
 | `prisijungimas.html`, `registracija.html`, `statymai/` (išskyrus `statymu-sarasas.html`), `lesos/` |
