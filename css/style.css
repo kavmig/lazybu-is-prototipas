@@ -36,4 +36,4 @@ fieldset{border:1px solid var(--line);border-radius:8px;margin:0 0 14px;padding:
 .dialog{background:#fff;border-radius:12px;padding:24px;max-width:460px;width:100%;box-shadow:0 10px 40px #0004}.dialog h2{margin-top:0}
 .toast{position:fixed;right:20px;bottom:20px;background:#1f7a46;color:#fff;padding:12px 18px;border-radius:8px;box-shadow:0 4px 14px #0003}
 ul.plain{padding-left:18px}
-@media (max-width:600px){.info{grid-template-columns:1fr}.info dt{margin-top:8px}th:nth-child(2),td:nth-child(2){display:none}}
+@media (max-width:600px){.info{grid-template-columns:1fr}.info dt{margin-top:8px}th:nth-child(2),td:nth-child(2){display:none}} .owner{display:none}
