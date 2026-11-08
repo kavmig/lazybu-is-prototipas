@@ -3,20 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ataskaitos formavimo forma – Lažybų IS</title>
+<title>Ataskaitos kriterijų ir peržiūros langas – Lažybų IS</title>
 <link rel="stylesheet" href="../css/style.css">
 </head>
-<body data-root="../">
-<header class="topbar">
-  <a class="logo" href="../index.html">Lažybų IS</a>
-</header>
-<main class="">
-  <a class="back" href="ataskaitos.html">← Atgal: Ataskaitų ir statistikos langas</a>
-  <h1>Ataskaitos formavimo forma</h1>
-<form class="card form" action="ataskaitos.html"><p class="todo">Šio lango turinys dar kuriamas.</p>
-  <label>Laukas 1<input type="text"></label><label>Laukas 2<input type="text"></label>
-  <div class="actions"><button class="btn" type="submit">Išsaugoti</button><a class="btn ghost" href="ataskaitos.html">Atšaukti</a></div></form>
+<body>
+<header class="topbar"><a class="logo" href="../index.html">Lažybų IS</a></header>
+<main>
+  <a class="back" href="../index.html">← Atgal: Pagrindinis langas</a>
+  <h1>Ataskaitos kriterijų ir peržiūros langas</h1>
+<form class="card form" action="ataskaitos-formavimas.html">
+<label>Ataskaitos tipas *<select><option value="">Pasirinkite…</option><option>Statymų</option><option>Finansinė</option><option>Lažybų įvykių</option><option>Naudotojų</option></select></label><label>Laikotarpis nuo *<input type="date"></label><label>Laikotarpis iki *<input type="date"></label><label>Kategorija<select><option value="">Visos kategorijos</option></select></label><label>Lažybų įvykis<select><option value="">Visi lažybų įvykiai</option></select></label>
+<div class="actions"><button class="btn" type="submit">Formuoti ataskaitą</button></div></form><h2>Ataskaitos peržiūra</h2><table id="t"><thead><tr><th>Rodiklis</th><th>Reikšmė</th></tr></thead><tbody><tr><td>–</td><td>–</td></tr></tbody></table>
 </main>
-<script src="../js/main.js"></script>
 </body>
 </html>
