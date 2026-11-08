@@ -6,16 +6,14 @@
 <title>Šablono kūrimo forma ir baigčių pasirinkimas – Lažybų IS</title>
 <link rel="stylesheet" href="../css/style.css">
 </head>
-<body data-root="../">
-<header class="topbar">
-  <a class="logo" href="../index.html">Lažybų IS</a>
-</header>
-<main class="">
+<body>
+<header class="topbar"><a class="logo" href="../index.html">Lažybų IS</a></header>
+<main>
   <a class="back" href="sablonu-sarasas.html">← Atgal: Statymo tipų šablonų sąrašo langas</a>
   <h1>Šablono kūrimo forma ir baigčių pasirinkimas</h1>
-<form class="card form" action="sablonu-sarasas.html"><p class="todo">Šio lango turinys dar kuriamas.</p>
-  <label>Laukas 1<input type="text"></label><label>Laukas 2<input type="text"></label>
-  <div class="actions"><button class="btn" type="submit">Išsaugoti</button><a class="btn ghost" href="sablonu-sarasas.html">Atšaukti</a></div></form>
+<form class="card form" action="sablonu-sarasas.html" data-msg="Šablonas sukurtas.">
+<label>Pavadinimas *<input type="text"></label><label>Aprašymas<textarea rows="3"></textarea></label><label class="check"><input type="checkbox" checked> Aktyvus</label><fieldset><legend>Galimos baigtys *</legend><label class="check"><input type="checkbox"> A laimėjo</label><label class="check"><input type="checkbox"> B laimėjo</label><label class="check"><input type="checkbox"> Lygiosios</label></fieldset><fieldset><legend>Papildomos baigtys (neprivaloma)</legend><select><option value="">Pasirinkite papildomą baigtį…</option></select></fieldset>
+<div class="actions"><button class="btn" type="submit">Išsaugoti</button><a class="btn ghost" href="sablonu-sarasas.html">Atšaukti</a></div></form>
 </main>
 <script src="../js/main.js"></script>
 </body>
