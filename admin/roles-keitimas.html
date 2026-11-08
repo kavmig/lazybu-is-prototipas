@@ -6,18 +6,13 @@
 <title>Naudotojo rolės keitimo forma – Lažybų IS</title>
 <link rel="stylesheet" href="../css/style.css">
 </head>
-<body data-root="../">
-<header class="topbar">
-  <a class="logo" href="../index.html">Lažybų IS</a>
-</header>
-<main class="">
+<body>
+<header class="topbar"><a class="logo" href="../index.html">Lažybų IS</a></header>
+<main>
   <a class="back" href="roliu-teisiu-sarasas.html">← Atgal: Rolių ir prieigos teisių sąrašo langas</a>
   <h1>Naudotojo rolės keitimo forma</h1>
 <form class="card form" action="roliu-teisiu-sarasas.html" data-msg="Naudotojo rolė atnaujinta.">
-<label>Naudotojas *<select required><option value="">Pasirinkite naudotoją</option><option>Jonas Jonaitis (jonas@pastas.lt)</option><option>Ona Onaitė (ona@pastas.lt)</option><option>Petras Petraitis (petras@pastas.lt)</option><option>Rūta Rutkauskė (ruta@pastas.lt)</option><option>Tomas Tomkus (tomas@pastas.lt)</option></select></label>
-<p class="hint">Dabartinė rolė: <b>Lošėjas</b></p>
-<label>Naujas naudotojo tipas *<select required><option>Lošėjas</option><option>Vadybininkas</option><option>Administratorius</option></select></label>
-<fieldset><legend>Šiam tipui nustatytos prieigos teisės</legend><label class="check"><input type="checkbox" checked disabled> Statymų atlikimas</label><label class="check"><input type="checkbox" checked disabled> Lėšų valdymas</label></fieldset>
+<label>Naudotojas *<select><option value="">Pasirinkite naudotoją</option></select></label><p class="hint">Dabartinė rolė: –</p><label>Naujas naudotojo tipas *<select><option value="">Pasirinkite…</option><option>Lošėjas</option><option>Vadybininkas</option><option>Administratorius</option></select></label><fieldset><legend>Šiam tipui nustatytos prieigos teisės</legend><p class="hint">–</p></fieldset>
 <div class="actions"><button class="btn" type="submit">Išsaugoti</button><a class="btn ghost" href="roliu-teisiu-sarasas.html">Atšaukti</a></div></form>
 </main>
 <script src="../js/main.js"></script>

@@ -1,4 +1,3 @@
-/* Bendras dizainas – keičia tik vienas komandos narys */
 :root{--bg:#f4f6fb;--card:#fff;--ink:#1d2433;--muted:#5b6475;--line:#dde2ec;--accent:#3b4cca;--accent-ink:#fff;--danger:#c0392b}
 *{box-sizing:border-box}
 body{margin:0;font-family:"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
